@@ -35,7 +35,7 @@
       <div class="form-group col-6">
         <label for="professor_id">Professor:</label>
         <select name="professor_id" id="professor_id" class="form-control">
-            @foreach ($professores as $professor)
+            @foreach ($professors as $professor)
                 @if ($professor->id == $turma->professor_id)
                     <option value="{{ $professor->id }}" selected="selected">{{ $professor->nome }}</option>
                 @else
