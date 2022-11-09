@@ -82,8 +82,7 @@
   </header>--><!-- End Header -->
 
   @yield("principal")
-  @yield("rodape")
-
+  
   <footer id="footer">
 
     <div class="footer-top">
