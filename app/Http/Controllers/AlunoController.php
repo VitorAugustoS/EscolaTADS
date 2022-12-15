@@ -39,7 +39,7 @@ class AlunoController extends Controller
         $aluno->nome = $request->get("nome");
         $aluno->matricula = $request->get("matricula");
         $aluno->turma_id = $request->get("turma_id");
-        $turma->save();
+        $aluno->save();
         $request->session()->get("status", "salvo");
         
         return redirect("/aluno");

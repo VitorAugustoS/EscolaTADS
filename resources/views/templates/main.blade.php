@@ -53,6 +53,7 @@
           <li><a href="/professor">Professores</a></li>
           <li><a href="/turma">Turmas</a></li>
           <li><a href="/atividade">Atividades</a></li>
+          <li><a href="/nota">Notas</a></li>
 
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -167,5 +168,7 @@
 
   <!-- Template Main JS File -->
   <script src="/js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.2.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.min.js"></script>
 </body>
 </html>
